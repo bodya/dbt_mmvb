@@ -1,5 +1,7 @@
+--run --vars '{"is_dev":false}'
+
 {% set my_var = "Hello, World!" %}
-{% set is_dev = true %}
+--{% set is_dev = true %}
 select "{{my_var}}" as greeting,
 {% if is_dev %}
 2000
