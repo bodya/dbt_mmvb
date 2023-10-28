@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: mmvb
+    description: 'Quik import database'
+    database: mmvb
+    schema: public
+    tables:
+        - name: q_current_trades_options
+          description: 'Table current_trades_option'
+        - name: q_current_trades_options_stock_week
+        - name: q_current_trades_options_week
+        - name: q_unface_option

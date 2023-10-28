@@ -1,0 +1,16 @@
+
+version: 2
+
+models:
+  - name: unface_option
+    description: "A unface_option dbt model"
+    columns:
+      - name: emit_code
+        description: "The primary key for this table"
+        tests:
+#          - unique
+          - not_null
+#          - accepted_values:
+#              values: [1,2]
+
+

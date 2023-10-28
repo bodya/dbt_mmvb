@@ -35,3 +35,12 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+      +schema: staging
+    mmvb:
+      +materialized: view
+      +schema: staging
+
+
+vars:
+  my_global_var: 2023
+  is_dev: false
