@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: unface_option_util_star
+    description: "Описание модели unface_option_util_star"
+    columns:
+      - name: emit_code
+        description: '{{ doc("detail_emit_name") }}'
+        tests:
+#          - unique
+          - not_null
+#          - accepted_values:
+#              values: [1,2]
+      - name: price
+        description: '{{ doc("detail_price_name") }}'
+
+      - name: volume
+        description: '{{ doc("detail_volume_name") }}'
+
+
