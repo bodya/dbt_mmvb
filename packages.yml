@@ -3,3 +3,5 @@ packages:
     version: 1.1.1
   - package: dbt-labs/logging
     version: 0.8.0
+  #- git: "https://github.com/bodya/dbt_learn.git" # git URL
+  #  revision: main # tag or branch name

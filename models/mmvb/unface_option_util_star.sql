@@ -1,5 +1,5 @@
 --{{config(materialized='table')}}
-{{config(schema='test_schema')}}
+{{config(schema='test_schema',tags=["util_star"]) }}
 select
     {{ dbt_utils.star(source('mmvb', 'q_unface_option'), except=['number','moex_class']) }}
 from

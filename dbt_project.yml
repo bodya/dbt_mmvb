@@ -48,9 +48,16 @@ models:
     example:
       +materialized: view
       +schema: staging
+      +tags:
+        - ex1
+        - another_tag
     mmvb:
       +materialized: view
       +schema: staging
+      +tags:
+        - ex2
+        - another_tag
+
 
 
 vars:

@@ -17,7 +17,7 @@ with source_data as (
 
 )
 
-select *
+select *, '{{ invocation_id }}' as invocation_id
 from source_data
 
 /*
