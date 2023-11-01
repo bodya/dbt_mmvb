@@ -1,4 +1,4 @@
-{% snapshot option_history_snapshot %}
+ {% snapshot option_history_snapshot %}
 
 {{
     config(
